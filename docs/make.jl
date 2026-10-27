@@ -8,7 +8,7 @@ using OptimizationCMAEvolutionStrategy, OptimizationGCMAES, OptimizationIpopt
 using OptimizationLBFGSB, OptimizationMadNLP, OptimizationManopt
 using OptimizationNLPModels, OptimizationNOMAD, OptimizationODE
 using OptimizationPolyalgorithms, OptimizationPRIMA, OptimizationPyCMA
-using OptimizationQuadDIRECT, OptimizationSciPy, OptimizationSophia
+using OptimizationQuadDIRECT, OptimizationSciPy, OptimizationSNOPT, OptimizationSophia
 using OptimizationSpeedMapping, SimpleOptimization
 
 cp(joinpath(@__DIR__, "Manifest.toml"), joinpath(@__DIR__, "src/assets/Manifest.toml"), force = true)
@@ -26,7 +26,7 @@ makedocs(
         OptimizationLBFGSB, OptimizationMadNLP, OptimizationManopt,
         OptimizationNLPModels, OptimizationNOMAD, OptimizationODE,
         OptimizationPolyalgorithms, OptimizationPRIMA, OptimizationPyCMA,
-        OptimizationQuadDIRECT, OptimizationSciPy, OptimizationSophia,
+        OptimizationQuadDIRECT, OptimizationSciPy, OptimizationSNOPT, OptimizationSophia,
         OptimizationSpeedMapping, SimpleOptimization,
     ],
     clean = true, linkcheck = true,

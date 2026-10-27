@@ -44,6 +44,7 @@ OptimizationPolyalgorithms = "500b13db-7e66-49ce-bda4-eed966be6282"
 OptimizationPyCMA = "fb0822aa-1fe5-41d8-99a6-e7bf6c238d3b"
 OptimizationQuadDIRECT = "842ac81e-713d-465f-80f7-84eddaced298"
 OptimizationSciPy = "cce07bd8-c79b-4b00-aee8-8db9cce22837"
+OptimizationSNOPT = "aea88bd7-30e2-449a-bd52-cd945ed8a06f"
 OptimizationSophia = "892fee11-dca1-40d6-b698-84ba0d87399a"
 OptimizationSpeedMapping = "3d669222-0d7d-4eb9-8a9f-d8528b0d9b91"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
@@ -137,6 +138,9 @@ url = "https://github.com/timholy/QuadDIRECT.jl.git"
 [sources.OptimizationSciPy]
 path = "../lib/OptimizationSciPy"
 
+[sources.OptimizationSNOPT]
+path = "../lib/OptimizationSNOPT"
+
 [sources.OptimizationSophia]
 path = "../lib/OptimizationSophia"
 
@@ -191,6 +195,7 @@ OptimizationPolyalgorithms = "0.3"
 OptimizationPyCMA = "1"
 OptimizationQuadDIRECT = "0.3"
 OptimizationSciPy = "0.4"
+OptimizationSNOPT = "1"
 OptimizationSophia = "1"
 OptimizationSpeedMapping = "0.2"
 OrdinaryDiffEq = "6, 7"

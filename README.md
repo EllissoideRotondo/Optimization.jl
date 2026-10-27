@@ -58,6 +58,7 @@ offered by them:
   - OptimizationPyCMA for Python's CMA-ES implementation via [PythonCall.jl](https://github.com/JuliaPy/PythonCall.jl)
   - OptimizationQuadDIRECT for [QuadDIRECT.jl](https://github.com/timholy/QuadDIRECT.jl)
   - OptimizationSciPy for [SciPy](https://scipy.org/) optimization algorithms via [PythonCall.jl](https://github.com/JuliaPy/PythonCall.jl)
+  - OptimizationSNOPT for the commercial [SNOPT](https://ccom.ucsd.edu/~optimizers/solvers/snopt/) solver via [SNOPT.jl](https://github.com/EllissoideRotondo/SNOPT.jl) (needs a licensed SNOPT library)
   - OptimizationSophia for Sophia optimizer (second-order stochastic optimizer)
   - OptimizationSpeedMapping for [SpeedMapping.jl](https://github.com/NicolasL-S/SpeedMapping.jl) (see also [this documentation](https://nicolasl-s.github.io/SpeedMapping.jl/stable/))
 
